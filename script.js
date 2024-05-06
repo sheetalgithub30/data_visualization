@@ -1,39 +1,35 @@
 const data = {
-  labels: ['Jan', 'Feb', 'March', 'April', 'May','June','July','Aug','Sep','Oct','Nov','Dec'],
+  labels: ['CSK', 'RCB', 'LSG', 'GT', 'MI','RR','SRH','DC','PBKS','KKR'],
   datasets: [{
-      label: 'Monthly Sales Data ',
-      backgroundColor: [    'rgb(255, 99, 132)',
-      'rgb(255, 159, 64)',
-      'rgb(255, 205, 86)',
-      'rgb(75, 192, 192)',
-      'rgb(153, 102, 255)',  
-      'rgb(82,218,213)',
-      'rgb(168,82,218)',
-      'rgb(82,218,132)',
-      'rgb(93,21,129)',
-      'rgb(215,226,57)',
-      'rgb(77,242,247)',
-      'rgb(186,124,52)',
-
+      label: 'IPL point table',
+      backgroundColor: [
+        '#ECFC0B',
+        '#FC130B',
+        '#4349F5',
+        '#4D1C72',
+        '#0B52F9',
+        '#F214A8',
+        '#FC8004',
+        '#4A3AD8',
+        '#FF0000',
+        '#3F0776'
     ],
       borderColor: [
-        'rgb(255, 99, 132)',
-        'rgb(255, 159, 64)',
-        'rgb(255, 205, 86)',
-        'rgb(75, 192, 192)',
-        'rgb(153, 102, 255)',
-        'rgb(82,218,213)',
-        'rgb(168,82,218)',
-            'rgb(82,218,132)',
-            'rgb(93,21,129)',
-            'rgb(215,226,57)',
-            'rgb(77,242,247)',
-            'rgb(186,124,52)',
+        '#ECFC0B',
+        '#FC130B',
+        '#4349F5',
+        '#4D1C72',
+        '#0B52F9',
+        '#F214A8',
+        '#FC8004',
+        '#4A3AD8',
+        '#FF0000',
+        '#3F0776'
 
        ],
         borderWidth: 2,
         borderRadius:8,
-      data: [65, 58, 80, 83, 56,67,46,98,49,64,95,84],
+      data: [12, 8, 12, 8, 6,16,12,10,8,16],
   }],
 };
 
@@ -46,7 +42,7 @@ const config = {
       plugins: {
           title: {
               display: true,
-              text: 'Monthly Sales Data(2023)',
+              text: 'INDIAN PREMIUM LEAGUE(2024)',
           },
       },
       onHover: (event, activeElements, chart) => {
